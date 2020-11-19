@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{ padding: 0px; margin: 0px; }
+
+html, body{
+	/*scroll-behavior: smooth;*/
+	font-family: 'Roboto', sans-serif;
+}
+
+#header{
+	background-color: #19283f;
+}
+
+#header nav ul li a{
+	color: #a8b9c0;
+}
+
+#header nav ul li a:focus{
+ 	color: #00c7c0;
+}
+
+hr{
+	height: 1px;
+	width: 10%;
+	background-color: #00c7c0;
+	margin: auto;
+}
+
+#service i{
+	font-size: 50px;
+	margin-top: -20px;
+	color: #00c6bf;
+}
+
+.service-1{
+	font-size: 200px;
+	color: #a8b9c0;
+	opacity: 0.1;
+}
+
+.service-2{
+	font-size: 200px;
+	color: #a8b9c0;
+	opacity: 0.1;
+}
+
+.service-3{
+	font-size: 200px;
+	color: #a8b9c0;
+	opacity: 0.1;
+}
+
+#portfolio{
+	background-color: #eff7fa;
+}
+
+#portfolio .filter-btn button{
+	background: transparent;
+	border: none;
+	color: #b6c5cc;
+}
+
+#portfolio .filter-btn button:focus{
+	background: #ff3150;
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+	border: 1px solid #ff3150;
+}
+
+.btn-style{
+	width: 200px;
+	border-radius: 10px;
+	color: yellow;
+	padding: 10px 0px 10px 0px;
+}
+
+.mackbook{
+	border: none;
+}
+
+#team{
+	background-color: #eff7fa;
+}
+
+.card-deck strong{
+	background-color: #00c6bf;
+	padding: 8px 0px 8px 0px;
+}
+
+#avderties{
+	background-color: #19283f;
+}
+
+#blog button{
+	width: 180px;
+	border-radius: 20px;
+	font-size: 12px;
+}
+
+#subscrib{
+	background-color: #ffc400;
+}
+
+#subscrib input{
+	width: 300px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+
+input::placeholder{
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+
+#subscrib button{
+	width: 180px;
+	border-radius: 20px;
+}
+
+#fotter{
+	background-color: #19283f;
+}
+
+#fotter p{
+	color: #a8b9c0;
+}
+
+#fotter a{
+	color: #a8b9c0;
+	text-decoration: none;
+}
+
+#fotter button{
+	border-radius: 40px;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 770px){
+	#fotter .row{
+		text-align: center;
+	}
+}
